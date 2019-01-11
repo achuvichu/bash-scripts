@@ -1,6 +1,8 @@
 !#/bin/bash
 clear;
-echo "enter the user name "
+echo "this script is used only for installing docker in ubuntu 18.04"
+echo "Please press ctrl+c to exit the script \n "
+echo "enter the user name of the docker user"
 read name
 apt update -y
 apt install -y apt-transport-https ca-certificates curl software-properties-common
